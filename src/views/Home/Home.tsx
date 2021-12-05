@@ -85,7 +85,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'SiaCashCoin')}
         </Heading>
-        <Text>{TranslateString(578, 'SiaCashCoin is pending migration to  Binance Smart Chain snapshot was taken of block height 13702854')}</Text>
+        <Text>{TranslateString(578, 'SiaCashCoin is pending migration to  Binance Smart Chain the new smart contract address is 0xc26EaFC627624baDf990f8d30116892eD204DB51 snapshot was taken of block height 13702854 of existing ERC20/BSC balances ')}</Text>
       </Hero>
       <div>
         <Cards>
