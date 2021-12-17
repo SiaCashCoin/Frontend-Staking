@@ -36,21 +36,18 @@ const config: MenuEntry[] = [
     href: 'https://bulksend.siacashcoin.com',
   },
   {
-     label: 'LaunchPad',
+    label: 'LaunchPad',
     icon: 'InfoIcon',
     items: [
-       {
-        label: 'Create Token',
-        href: 'https://createtoken.siacaashcoin.com',
-       },
-       {
+      {
+        label: 'Create Token ',
+        href: 'https://createtoken.siacashcoin.com/',
+      },
+      {
         label: 'Safemoon Fork',
-         href: 'https://createsafemoon.siacashcoin.com',
-       },
-       {
-  
-    },
-   ],
+        href: 'https://createsafemoon.siacashcoin.com',
+      },
+    ],
   },
   {
     label: 'Games',
