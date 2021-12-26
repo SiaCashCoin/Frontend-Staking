@@ -67,4 +67,12 @@ export default {
     56: '0xFee8A195570a18461146F401d6033f5ab3380849',
     97: '',
   },
+  microsanta: {
+    56: '0x49e558939f6dd099c2bc29bd84b75af82b5ad1b3',
+    97: '',
+  },
+  scc: {
+    56: '0xc26EaFC627624baDf990f8d30116892eD204DB51',
+    97: '',
+  },
 }
