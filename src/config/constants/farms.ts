@@ -51,7 +51,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 4,
-    lpSymbol: 'SCC-ETH LP',
+    lpSymbol: 'ETH-SCC LP',
     lpAddresses: {
       97: '',
       56: '0x31c4f338FA35E8792C285b9FD2ccaC912F06b0D8',   // lp address token-bnb
