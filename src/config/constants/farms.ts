@@ -62,7 +62,7 @@ const farms: FarmConfig[] = [
       56: '0xc26EaFC627624baDf990f8d30116892eD204DB51', // token address
     },
     quoteTokenSymbol: QuoteToken.ETH,
-    quoteTokenAdresses: contracts.scc,
+    quoteTokenAdresses: contracts.eth,
   },
 
 ]
