@@ -49,6 +49,21 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 4,
+    lpSymbol: 'SCC-ETH LP',
+    lpAddresses: {
+      97: '',
+      56: '0x31c4f338FA35E8792C285b9FD2ccaC912F06b0D8',   // lp address token-bnb
+    },
+    tokenSymbol: 'SCC',
+    tokenAddresses: {
+      97: '',
+      56: '0xc26EaFC627624baDf990f8d30116892eD204DB51', // token address
+    },
+    quoteTokenSymbol: QuoteToken.ETH,
+    quoteTokenAdresses: contracts.eth,
+  },
 
 ]
 
