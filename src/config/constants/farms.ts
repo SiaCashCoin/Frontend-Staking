@@ -49,6 +49,21 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 3,
+    lpSymbol: 'MICROSANTA LP',
+    lpAddresses: {
+      97: '',
+      56: '0xf04bc5e9EB85374DDa27DD06FEbD1fe2e0CBdB16',   // lp address token-bnb
+    },
+    tokenSymbol: 'SCC',
+    tokenAddresses: {
+      97: '',
+      56: '0xc26EaFC627624baDf990f8d30116892eD204DB51', // token address
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
   
 ]
 
