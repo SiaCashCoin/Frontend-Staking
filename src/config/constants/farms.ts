@@ -51,7 +51,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 3,
-    lpSymbol: 'MICROSANTA LP',
+    lpSymbol: 'MICROSANTA-SCC LP',
     lpAddresses: {
       97: '',
       56: '0xf04bc5e9EB85374DDa27DD06FEbD1fe2e0CBdB16',   // lp address token-bnb
