@@ -71,8 +71,8 @@ export default {
     56: '0x49e558939f6dd099c2bc29bd84b75af82b5ad1b3',
     97: '',
   },
-  scc: {
-    56: '0xc26EaFC627624baDf990f8d30116892eD204DB51',
+  shib: {
+    56: '0x2859e4544c4bb03966803b044a93563bd2d0dd4d',
     97: '',
   },
 }
