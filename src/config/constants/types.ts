@@ -34,6 +34,7 @@ export enum QuoteToken {
   'COMP' = 'COMP',
   'SUSHI' = 'SUSHI',
   'TPT' = 'TPT',
+  'SHIB' = 'SHIB',
 }
 
 export enum PoolCategory {
