@@ -64,6 +64,21 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
+  {
+    pid: 5,
+    lpSymbol: 'SCC-SHIB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xfe7be78a50a514b4390316a8e49d7574ba68ef64',   // lp address token-bnb
+    },
+    tokenSymbol: 'SCC',
+    tokenAddresses: {
+      97: '',
+      56: '0xc26EaFC627624baDf990f8d30116892eD204DB51', // token address
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.shib,
+  },
   
 ]
 
