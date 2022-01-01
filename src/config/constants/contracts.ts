@@ -75,4 +75,8 @@ export default {
     56: '0x2859e4544c4bb03966803b044a93563bd2d0dd4d',
     97: '',
   },
+  doge: {
+    56: '0xba2ae424d960c26247dd6c32edc70b295c744c43',
+    97: '',
+  },
 }
