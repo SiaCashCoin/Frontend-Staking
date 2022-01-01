@@ -84,7 +84,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SCC-DOGE LP',
     lpAddresses: {
       97: '',
-      56: '0xfe7be78a50a514b4390316a8e49d7574ba68ef64',   // lp address token-bnb
+      56: '0x2758e0C3d24E07Bf851fD04397243C3691ec2C38',   // lp address token-bnb
     },
     tokenSymbol: 'SCC',
     tokenAddresses: {
