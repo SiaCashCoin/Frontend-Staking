@@ -2639,7 +2639,8 @@ var PanelFooter = function (_a) {
             React.createElement(SocialLinks$1, null)),
         React.createElement(SettingsEntry, null,
             // React.createElement(ThemeSwitcher$1, { isDark: isDark, toggleTheme: toggleTheme }),
-            React.createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang }))));
+            // React.createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang })
+            )));
 };
 var templateObject_1$G, templateObject_2$e, templateObject_3$7;
 
