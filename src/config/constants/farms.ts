@@ -77,7 +77,22 @@ const farms: FarmConfig[] = [
       56: '0xc26EaFC627624baDf990f8d30116892eD204DB51', // token address
     },
     quoteTokenSymbol: QuoteToken.CAKE,
-    quoteTokenAdresses: contracts.shib,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
+    pid: 7,
+    lpSymbol: 'DOGE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xac109C8025F272414fd9e2faA805a583708A017f',   // lp address token-bnb
+    },
+    tokenSymbol: 'DOGE',
+    tokenAddresses: {
+      97: '',
+      56: '0xba2ae424d960c26247dd6c32edc70b295c744c43', // token address
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
   },
   
 ]
