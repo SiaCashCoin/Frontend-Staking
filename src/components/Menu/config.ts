@@ -59,7 +59,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'CoinFlip',
-        href: 'href: 'https://tokenpvp.com/tokens/0xc26EaFC627624baDf990f8d30116892eD204DB51',',
+        href: 'href:https://tokenpvp.com/tokens/0xc26EaFC627624baDf990f8d30116892eD204DB51',
       },
     ],
   },
