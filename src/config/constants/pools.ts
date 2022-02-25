@@ -19,6 +19,24 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+   {
+    sousId: 267,
+    tokenName: 'HIGH',
+    tokenAddress: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',   // token address
+    stakingTokenName: QuoteToken.FORK,
+    stakingTokenAddress: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',  // token address
+    contractAddress: {
+      97: '',
+      56: '0x60c4998C058BaC8042712B54E7e43b892Ab0B0c4',
+    },
+    poolCategory: PoolCategory.CORE,
+    projectLink: '/',
+    harvest: true,
+    tokenPerBlock: '0.09756',
+    sortOrder: 2,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
  
 ]
 
