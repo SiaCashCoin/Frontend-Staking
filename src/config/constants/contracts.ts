@@ -79,4 +79,12 @@ export default {
     56: '0xba2ae424d960c26247dd6c32edc70b295c744c43',
     97: '',
   },
+  high: {
+    56: '0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63',
+    97: '',
+  },
+fork: {
+    97: '',
+    56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+  },
 }

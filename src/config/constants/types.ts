@@ -36,6 +36,8 @@ export enum QuoteToken {
   'TPT' = 'TPT',
   'SHIB' = 'SHIB',
   'DOGE' = 'DOGE',
+  'HIGH' = 'HIGH',
+  'FORK' = 'CAKE',
 }
 
 export enum PoolCategory {
