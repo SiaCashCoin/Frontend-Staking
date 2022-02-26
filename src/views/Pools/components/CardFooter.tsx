@@ -133,10 +133,7 @@ const CardFooter: React.FC<Props> = ({
               <FlexFull>
                 <Label>{TranslateString(410, 'Starts in')}:</Label>
               </FlexFull>
-              <Balance fontSize="14px" isDisabled={isFinished} value={blocksUntilStart} decimals={0} />
-              <Text small ml="4px" color="primary" textTransform="lowercase">
-                  {t('Blocks')}
-                </Text>
+              <Balance fontSize="14px" isDisabled={isFinished} value={blocksUntilStart} decimals={0} />             
             </Row>
           )}
           {blocksUntilStart === 0 && blocksRemaining > 0 && (
@@ -144,10 +141,7 @@ const CardFooter: React.FC<Props> = ({
               <FlexFull>
                 <Label>{TranslateString(410, 'Ends in')}:</Label>
               </FlexFull>
-              <Balance fontSize="14px" isDisabled={isFinished} value={blocksRemaining} decimals={0} />
-              <Text small ml="4px" color="primary" textTransform="lowercase">
-                  {t('Blocks')}
-                </Text>
+              <Balance fontSize="14px" isDisabled={isFinished} value={blocksRemaining} decimals={0} />              
             </Row>
           )}
           <Flex mb="4px">
