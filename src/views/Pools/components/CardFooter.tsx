@@ -73,6 +73,12 @@ const FlexFull = styled.div`
 const Label = styled.div`
   font-size: 14px;
 `
+const Text = styled.div`
+  font-size: 14px;
+  margin-left: 4px;
+  font-weight: 600;
+  color: #000000;
+`
 const TokenLink = styled.a`
   font-size: 14px;
   text-decoration: none;
@@ -133,7 +139,8 @@ const CardFooter: React.FC<Props> = ({
               <FlexFull>
                 <Label>{TranslateString(410, 'Starts in')}:</Label>
               </FlexFull>
-              <Balance fontSize="14px" isDisabled={isFinished} value={blocksUntilStart} decimals={0} />             
+              <Balance fontSize="14px" isDisabled={isFinished} value={blocksUntilStart} decimals={0} /> 
+              <Text> Blocks </Text>
             </Row>
           )}
           {blocksUntilStart === 0 && blocksRemaining > 0 && (
@@ -141,7 +148,8 @@ const CardFooter: React.FC<Props> = ({
               <FlexFull>
                 <Label>{TranslateString(410, 'Ends in')}:</Label>
               </FlexFull>
-              <Balance fontSize="14px" isDisabled={isFinished} value={blocksRemaining} decimals={0} />              
+              <Balance fontSize="14px" isDisabled={isFinished} value={blocksRemaining} decimals={0} />  
+              <Text> Blocks </Text>
             </Row>
           )}
           <Flex mb="4px">
