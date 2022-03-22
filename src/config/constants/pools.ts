@@ -19,6 +19,24 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+  {
+    sousId: 1,
+    tokenName: 'SHIBA',
+    tokenAddress: '0xc26EaFC627624baDf990f8d30116892eD204DB51',   // token address
+    stakingTokenName: QuoteToken.CAKE,
+    stakingTokenAddress: '0xc26EaFC627624baDf990f8d30116892eD204DB51',  // token address
+    contractAddress: {
+      97: '',
+      56: '0xa8567fa6A62bbB63DD512ECfF91df86249FE7090',
+    },
+    poolCategory: PoolCategory.CORE,
+    projectLink: '/',    
+    harvest: true,
+    tokenPerBlock: '10',
+    sortOrder: 2,
+    isFinished: false,
+    tokenDecimals: 18,
+  },
    {
     sousId: 267,
     tokenName: 'HIGH',
