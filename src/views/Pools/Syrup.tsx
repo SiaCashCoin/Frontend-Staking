@@ -47,7 +47,7 @@ const Farm: React.FC = () => {
         </div>
         <img src="/images/syrup.png" alt="SYRUP POOL icon" width={410} height={191} />
       </Hero>
-      {/* <PoolTabButtons stackedOnly={stackedOnly} setStackedOnly={setStackedOnly} /> */}
+       <PoolTabButtons stackedOnly={stackedOnly} setStackedOnly={setStackedOnly} /> 
       <Divider />
       <FlexLayout>
         <Route exact path={`${path}`}>
@@ -55,7 +55,7 @@ const Farm: React.FC = () => {
             {stackedOnly
               ? orderBy(stackedOnlyPools, ['sortOrder']).map((pool) => <PoolCard key={pool.sousId} pool={pool} />)
               : orderBy(openPools, ['sortOrder']).map((pool) => <PoolCard key={pool.sousId} pool={pool} />)}
-            {/* <Coming /> */}
+            <Coming /> 
           </>
         </Route>
         <Route path={`${path}/history`}>
