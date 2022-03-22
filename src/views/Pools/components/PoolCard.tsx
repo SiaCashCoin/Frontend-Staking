@@ -190,14 +190,14 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
               </>
             ))}
         </StyledCardActions>
-        {/* <StyledDetails>
+         <StyledDetails>
           <div>{TranslateString(736, 'APR')}:</div>
           {isFinished || isOldSyrup || !apy ? (
             '-'
           ) : (
             <Balance fontSize="14px" isDisabled={isFinished} value={apy} decimals={2} unit="%" />
           )}
-        </StyledDetails> */}
+        </StyledDetails> 
         <StyledDetails>
           <div>{TranslateString(384, 'Your Stake')}:</div>
           <Balance
