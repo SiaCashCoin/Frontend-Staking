@@ -58,16 +58,13 @@ const Coming: React.FC = () => {
         </Button>
         <DetailPlaceholder>
           <div style={{ flex: 1 }}>{TranslateString(736, 'APR')}:</div>
-          <Value>??</Value>
+          <Value>???</Value>
         </DetailPlaceholder>
         <DetailPlaceholder>
-          <div style={{ flex: 1 }}>
-            <span role="img" aria-label="syrup">
-              🥞{' '}
-            </span>
+          <div style={{ flex: 1 }}>            
             {TranslateString(384, 'Your Stake')}:
           </div>
-          <Value>??? SCC</Value>
+          <Value>??? </Value>
         </DetailPlaceholder>
       </div>
       <Footer>
