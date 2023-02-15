@@ -102,7 +102,7 @@ const Home: React.FC = () => {
         </CTACards>
         <Cards>
           <CakeStats />
-          <TotalValueLockedCard />
+         {/* <TotalValueLockedCard /> */}
         </Cards>
       </div>
     </Page>
